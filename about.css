@@ -1,0 +1,98 @@
+
+
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background-color: rgb(179, 157, 218);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 5px 4px 8px 1px rgb(128 104 184);
+    margin: auto;
+}
+
+h1{
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2%;
+    color: #9859af;
+    text-align: center;
+    font-weight: 900;}
+
+.image img{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:-7%;
+}
+
+.container .form{
+    margin:auto;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width:400px;
+}
+
+.form .inputbox{
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-self: normal;
+    gap: 20px;
+}
+
+.inputbox label{
+    color:black;
+}
+.form .inputbox input{
+    position: relative;
+    height:50px;
+    width:100%;
+    outline:none;
+    border:1px solid black;
+    border-radius:6px;
+    font-size: 1 rem;
+    color:aqua;
+    margin-top:8px
+}
+
+.form .column{
+    display: flex;
+    column-gap:15px;
+    flex-direction: column;
+}
+
+@media screen and (max-width:500px){
+    .form.columnn{
+        flex-wrap: wrap;
+    }
+
+}
+
+.btn{box-sizing: border-box;
+    clear: both;
+    font-size: 5rem;
+    position: relative;
+    text-align: inherit;
+
+}
+
+.btn button{
+    height: 55px;
+    width: 90px;
+    background-color: #774ec7;
+    margin-left: -3px;
+    color: white;
+    border-radius: 12px;
+}
+
+
+@media screen and (max-width:950px){
+    display:grid;
+    grid-template-rows:80px;
+
+}
+    
